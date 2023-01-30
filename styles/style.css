@@ -5,16 +5,6 @@
     LILÁS: #5F2C82
 */
 
-/*
-    Typical device breakpoints
-    =================================
-    Telas pequenas: até 600px
-    Celular: 600px até 768px
-    Tablet: 768px até 992px
-    Desktop: 992px até 1200px
-    Telas Grandes: acima de 1200px
-*/
-
 * {
     margin: 0px;
     padding: 0px;
@@ -36,13 +26,20 @@ body {
 
 main {
     background-color: white;
-    height: 610px;
+    height: 650px;
     width: 300px;
     border-radius: 20px;
+    box-shadow: 2px 2px 7px 4px #00000067;
+}
+
+section.image {
+    width: 100%;
+    height: 270px;
 }
 
 section img {
     width: 100%;
+    height: 100%;
     border-radius: 20px 20px 0 0;
 }
 
