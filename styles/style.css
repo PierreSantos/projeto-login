@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+/*
+    VERDE: #49A09D
+    LILÁS: #5F2C82
+*/
+
+/*
+    Typical device breakpoints
+    =================================
+    Telas pequenas: até 600px
+    Celular: 600px até 768px
+    Tablet: 768px até 992px
+    Desktop: 992px até 1200px
+    Telas Grandes: acima de 1200px
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5f2c82;
+}
+
+main {
+    background-color: white;
+    height: 610px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+section img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+div.box {
+    background-color: #5f2c82;
+    width: 93%;
+    margin: auto;
+    margin-bottom: 4px;
+    padding: 4px 0.8px 1px 20px;
+    border-radius: 10px;
+}
+
+.material-symbols-outlined {
+    color: white;
+    position: relative;
+    top: 5px;
+    right: 5px;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 200,
+  'opsz' 48
+}
+
+input.campo {
+    background-color: #94cfcd;
+    width: 88%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+input.campo:focus {
+    background-color: white;
+}
+
+input#entrar {
+    display: block;
+    background-color: #49A09D;
+    font-size: 1.2em;
+    color: white;
+    width: 93%;
+    margin: auto;
+    margin-bottom: 4px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+input#entrar:hover {
+    background-color: #285755;
+    cursor: pointer;
+}
+
+form a {
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #49A09D;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #367573;
+    width: 93%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form a:hover {
+    background-color: #5ecac7;
+}
+
+#mail {
+    color: #367573;
+    font-size: 15px;
+    padding: 2px;
+}
