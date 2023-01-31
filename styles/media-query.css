@@ -15,15 +15,15 @@
     Telas Grandes: acima de 1200px
 */
 
-@media screen and (min-width: 768px) and (max-width:992px) {
+@media screen and (min-width: 798px) and (max-width:992px) {
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     main {
         display: flex;
-        height: 300px;
-        width: 85vw;
+        height: 320px;
+        width: 80vw;
         border-radius: 20px;
     }
 
@@ -42,13 +42,13 @@
     }
 
     div.box {
-        height: 46px;
+        height: 50px;
         width: 91%;
     }
 
     input.campo {
-        width: 92.6%;
-        padding: 10px;
+        width: 91%;
+        padding: 9px;
     }
 
     input#entrar {
@@ -57,4 +57,55 @@
 
 }
 
-@media screen and (min-width:992px) {}
+@media screen and (min-width:992px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        height: 400px;
+        width: 965px;
+        border-radius: 20px;
+    }
+
+    section.image {
+        height: 100%;
+        width: 50%;
+    }
+
+    section img {
+        border-radius:0 20px 20px 0;
+    }
+
+    h1 {
+        font-size: 2em;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+
+    section.form {
+        height: 100%;
+        width: 50%;
+        border-radius: 20px 0 0 20px;
+    }
+
+    div.box {
+        height: 50px;
+        width: 93%;
+    }
+
+    input.campo {
+        width: 93%;
+        padding: 12px;
+    }
+
+    input#entrar {
+        padding: 12px;
+    }
+}
