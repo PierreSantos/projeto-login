@@ -22,7 +22,7 @@
 
     main {
         display: flex;
-        height: 320px;
+        height: 300px;
         width: 80vw;
         border-radius: 20px;
     }
@@ -36,18 +36,16 @@
         border-radius: 20px 0 0 20px;
     }
 
-    section.form {
-        height: 100%;
-        border-radius: 0 20px 20px 0;
-    }
-
     div.box {
         height: 50px;
-        width: 91%;
+    }
+
+    div.box > label > span {
+        font-size: 35px;
+        left: 6px;
     }
 
     input.campo {
-        width: 91%;
         padding: 9px;
     }
 
@@ -65,7 +63,7 @@
     main {
         display: flex;
         flex-direction: row-reverse;
-        height: 400px;
+        height: 360px;
         width: 965px;
         border-radius: 20px;
     }
@@ -90,18 +88,19 @@
     }
 
     section.form {
-        height: 100%;
         width: 50%;
-        border-radius: 20px 0 0 20px;
     }
 
     div.box {
         height: 50px;
-        width: 93%;
+    }
+
+    div.box > label > span {
+        font-size: 35px;
+        left: 6px;
     }
 
     input.campo {
-        width: 93%;
         padding: 12px;
     }
 

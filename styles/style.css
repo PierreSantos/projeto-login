@@ -26,7 +26,7 @@ body {
 
 main {
     background-color: white;
-    height: 560px;
+    height: 545px;
     width: 280px;
     border-radius: 20px;
     box-shadow: 2px 2px 7px 4px #00000067;
@@ -46,22 +46,21 @@ section img {
     border-radius: 20px 20px 0 0;
 }
 
-h1 {
-    text-align: center;
-    margin-top: 10px;
-}
-
-p {
+section.form {
     padding: 10px;
 }
+
+h1 {
+    text-align: center;
+}
+
 
 div.box {
     display: flex;
     justify-content: space-between;
     background-color: #5f2c82;
-    width: 93%;
-    margin: auto;
-    margin-bottom: 4px;
+    width: 100%;
+    margin: 5px 0;
     padding: 5px;
     border-radius: 10px;
 }
@@ -81,7 +80,7 @@ div.box {
 input.campo {
     background-color: #94cfcd;
     width: 88%;
-    padding: 8px;
+    padding: 9px;
     border-radius: 10px;
 }
 
@@ -94,9 +93,8 @@ input#entrar {
     background-color: #49A09D;
     font-size: 1.2em;
     color: white;
-    width: 93%;
-    margin: auto;
-    margin-bottom: 4px;
+    width: 100%;
+    margin-bottom: 5px;
     padding: 12px;
     border: none;
     border-radius: 10px;
@@ -109,13 +107,12 @@ input#entrar:hover {
 
 form a {
     display: block;
-    margin: auto;
     text-align: center;
     border: 1px solid #49A09D;
     text-decoration: none;
     font-size: 1.2em;
     color: #367573;
-    width: 93%;
+    width: 100%;
     padding: 8px;
     border-radius: 10px;
 }
